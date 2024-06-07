@@ -1,0 +1,11 @@
+.userinputs-text {
+  font-family: Roboto;
+  font-size: 22px;
+  color: #0f172a;
+  margin-left: 20px;
+  line-height: 0.7;
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+}

@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-bgcontainer {
+  height: 100vh;
+  width: 100vw;
+  padding: 40px;
+}
+.charecter-counter-div {
+  background-color: #ffc533;
+  padding: 10px;
+  height: 90vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.count-heading {
+  font-family: Roboto;
+  color: #334155;
+  font-size: 30px;
+}
+.count-heading-div {
+  background-color: #ffbf1f;
+  padding: 35px;
+}
+.counter-container {
+  display: flex;
+}
+.characters-enter-div {
+  background-color: #0f172a;
+  width: 50%;
+  height: 90vh;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 20px;
+}
+.charecter-heading {
+  color: #ffc533;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 35px;
+}
+.inputs-add-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  outline: none;
+  border-radius: 5px;
+  width: 330px;
+  margin-right: 15px;
+}
+.add-button {
+  background-color: #ffc533;
+  color: #334155;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  font-family: Roboto;
+  width: 90px;
+  border-radius: 5px;
+}
+.nouser-input-image {
+  width: 80%;
+  align-self: center;
+  margin-top: 60px;
+}
